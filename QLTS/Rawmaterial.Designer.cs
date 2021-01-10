@@ -225,7 +225,7 @@ namespace QLTS
             this.Controls.Add(this.pnlManipulation);
             this.Controls.Add(this.pnlListRawmaterial);
             this.Name = "Rawmaterial";
-            this.Text = "Rawmaterial";
+            this.Text = "Nguyên Liệu";
             this.pnlListRawmaterial.ResumeLayout(false);
             this.pnlManipulation.ResumeLayout(false);
             this.pnlManipulation.PerformLayout();

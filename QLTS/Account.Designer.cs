@@ -284,7 +284,7 @@ namespace QLTS
             this.ClientSize = new System.Drawing.Size(1274, 639);
             this.Controls.Add(this.pnlOptions);
             this.Name = "Account";
-            this.Text = "Account";
+            this.Text = "Tài Khoản";
             this.pnlOptions.ResumeLayout(false);
             this.pnlOptions.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();

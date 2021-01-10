@@ -36,9 +36,19 @@ namespace QLTS
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pnlRevenue = new System.Windows.Forms.Panel();
+            this.lsvBill = new System.Windows.Forms.ListView();
             this.pnlButton = new System.Windows.Forms.Panel();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.listView2 = new System.Windows.Forms.ListView();
+            this.lsvBillDetail = new System.Windows.Forms.ListView();
+            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader9 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader10 = new System.Windows.Forms.ColumnHeader();
             this.pnlTime.SuspendLayout();
             this.pnlRevenue.SuspendLayout();
             this.pnlButton.SuspendLayout();
@@ -102,45 +112,112 @@ namespace QLTS
             // 
             // pnlRevenue
             // 
-            this.pnlRevenue.Controls.Add(this.listView1);
+            this.pnlRevenue.Controls.Add(this.lsvBill);
             this.pnlRevenue.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlRevenue.Location = new System.Drawing.Point(0, 115);
             this.pnlRevenue.Name = "pnlRevenue";
             this.pnlRevenue.Size = new System.Drawing.Size(1117, 239);
             this.pnlRevenue.TabIndex = 2;
             // 
+            // lsvBill
+            // 
+            this.lsvBill.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6});
+            this.lsvBill.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lsvBill.GridLines = true;
+            this.lsvBill.HideSelection = false;
+            this.lsvBill.Location = new System.Drawing.Point(0, 0);
+            this.lsvBill.Name = "lsvBill";
+            this.lsvBill.Size = new System.Drawing.Size(1117, 239);
+            this.lsvBill.TabIndex = 0;
+            this.lsvBill.UseCompatibleStateImageBehavior = false;
+            this.lsvBill.View = System.Windows.Forms.View.Details;
+            // 
             // pnlButton
             // 
-            this.pnlButton.Controls.Add(this.listView2);
+            this.pnlButton.Controls.Add(this.lsvBillDetail);
             this.pnlButton.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlButton.Location = new System.Drawing.Point(0, 354);
             this.pnlButton.Name = "pnlButton";
             this.pnlButton.Size = new System.Drawing.Size(1117, 192);
             this.pnlButton.TabIndex = 1;
             // 
-            // listView1
+            // lsvBillDetail
             // 
-            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView1.GridLines = true;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(0, 0);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1117, 239);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.lsvBillDetail.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader7,
+            this.columnHeader8,
+            this.columnHeader9,
+            this.columnHeader10});
+            this.lsvBillDetail.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lsvBillDetail.GridLines = true;
+            this.lsvBillDetail.HideSelection = false;
+            this.lsvBillDetail.Location = new System.Drawing.Point(0, 0);
+            this.lsvBillDetail.Name = "lsvBillDetail";
+            this.lsvBillDetail.Size = new System.Drawing.Size(1117, 192);
+            this.lsvBillDetail.TabIndex = 0;
+            this.lsvBillDetail.UseCompatibleStateImageBehavior = false;
+            this.lsvBillDetail.View = System.Windows.Forms.View.Details;
             // 
-            // listView2
+            // columnHeader1
             // 
-            this.listView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView2.GridLines = true;
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(0, 0);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(1117, 192);
-            this.listView2.TabIndex = 0;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.Details;
+            this.columnHeader1.Text = "Mã Hóa Đơn";
+            this.columnHeader1.Width = 120;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Thời Gian Lập";
+            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader2.Width = 120;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Thành Tiền";
+            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader3.Width = 120;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Mã Phiếu Giảm Giá";
+            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader4.Width = 150;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Mã Chương trình KM";
+            this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader5.Width = 150;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Thực Thu";
+            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader6.Width = 120;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Mã Hóa Đơn";
+            this.columnHeader7.Width = 100;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Dịch Vụ";
+            this.columnHeader8.Width = 150;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Số Lượng";
+            this.columnHeader9.Width = 150;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "Thành Tiền";
+            this.columnHeader10.Width = 150;
             // 
             // Revenue
             // 
@@ -151,7 +228,7 @@ namespace QLTS
             this.Controls.Add(this.pnlButton);
             this.Controls.Add(this.pnlTime);
             this.Name = "Revenue";
-            this.Text = "Revenue";
+            this.Text = "Doanh Thu";
             this.pnlTime.ResumeLayout(false);
             this.pnlTime.PerformLayout();
             this.pnlRevenue.ResumeLayout(false);
@@ -170,7 +247,17 @@ namespace QLTS
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel pnlRevenue;
         private System.Windows.Forms.Panel pnlButton;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.ListView lsvBill;
+        private System.Windows.Forms.ListView lsvBillDetail;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.ColumnHeader columnHeader10;
     }
 }

@@ -126,7 +126,7 @@ namespace QLTS
             this.Controls.Add(this.pnlManagament);
             this.Controls.Add(this.pnlOptions);
             this.Name = "Managerment";
-            this.Text = "Managerment";
+            this.Text = "Quản Lý";
             this.pnlOptions.ResumeLayout(false);
             this.ResumeLayout(false);
 

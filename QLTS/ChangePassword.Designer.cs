@@ -139,7 +139,7 @@ namespace QLTS
             this.ClientSize = new System.Drawing.Size(1026, 581);
             this.Controls.Add(this.pnlOptions);
             this.Name = "ChangePassword";
-            this.Text = "ChangePassword";
+            this.Text = "Đổi Mật Khẩu";
             this.pnlOptions.ResumeLayout(false);
             this.pnlOptions.PerformLayout();
             this.ResumeLayout(false);
