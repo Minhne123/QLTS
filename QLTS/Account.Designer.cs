@@ -31,29 +31,29 @@ namespace QLTS
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Account));
             this.pnlOptions = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbName = new System.Windows.Forms.Label();
-            this.lbAddress = new System.Windows.Forms.Label();
-            this.lbID = new System.Windows.Forms.Label();
-            this.lbPosition = new System.Windows.Forms.Label();
-            this.lbSex = new System.Windows.Forms.Label();
-            this.lbPhone = new System.Windows.Forms.Label();
-            this.lbBirth = new System.Windows.Forms.Label();
-            this.btnExit = new System.Windows.Forms.Button();
-            this.tbxName = new System.Windows.Forms.TextBox();
-            this.tbxSex = new System.Windows.Forms.TextBox();
-            this.tbxPhone = new System.Windows.Forms.TextBox();
-            this.tbxAddress = new System.Windows.Forms.TextBox();
-            this.tbxID = new System.Windows.Forms.TextBox();
-            this.tbxPosition = new System.Windows.Forms.TextBox();
-            this.tbxBirth = new System.Windows.Forms.TextBox();
             this.picAvatar = new System.Windows.Forms.PictureBox();
-            this.btnChangePassword = new System.Windows.Forms.Button();
+            this.tbxBirth = new System.Windows.Forms.TextBox();
+            this.tbxPosition = new System.Windows.Forms.TextBox();
+            this.tbxID = new System.Windows.Forms.TextBox();
+            this.tbxAddress = new System.Windows.Forms.TextBox();
+            this.tbxPhone = new System.Windows.Forms.TextBox();
+            this.tbxSex = new System.Windows.Forms.TextBox();
+            this.tbxName = new System.Windows.Forms.TextBox();
             this.tbxPassword = new System.Windows.Forms.TextBox();
-            this.lbPassword = new System.Windows.Forms.Label();
             this.tbxUsername = new System.Windows.Forms.TextBox();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnChangePassword = new System.Windows.Forms.Button();
+            this.lbBirth = new System.Windows.Forms.Label();
+            this.lbPhone = new System.Windows.Forms.Label();
+            this.lbSex = new System.Windows.Forms.Label();
+            this.lbPosition = new System.Windows.Forms.Label();
+            this.lbID = new System.Windows.Forms.Label();
+            this.lbAddress = new System.Windows.Forms.Label();
+            this.lbName = new System.Windows.Forms.Label();
+            this.lbPassword = new System.Windows.Forms.Label();
             this.lbUsername = new System.Windows.Forms.Label();
             this.lbTitle = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pnlOptions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.SuspendLayout();
@@ -89,81 +89,95 @@ namespace QLTS
             this.pnlOptions.Size = new System.Drawing.Size(949, 615);
             this.pnlOptions.TabIndex = 1;
             // 
-            // label1
+            // picAvatar
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(-96, -108);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Thông Tin Cá Nhân";
+            this.picAvatar.Image = ((System.Drawing.Image)(resources.GetObject("picAvatar.Image")));
+            this.picAvatar.Location = new System.Drawing.Point(577, 67);
+            this.picAvatar.Name = "picAvatar";
+            this.picAvatar.Size = new System.Drawing.Size(122, 146);
+            this.picAvatar.TabIndex = 22;
+            this.picAvatar.TabStop = false;
             // 
-            // lbName
+            // tbxBirth
             // 
-            this.lbName.AutoEllipsis = true;
-            this.lbName.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbName.Location = new System.Drawing.Point(0, 176);
-            this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(179, 37);
-            this.lbName.TabIndex = 4;
-            this.lbName.Text = "Họ Và Tên:";
+            this.tbxBirth.Location = new System.Drawing.Point(185, 523);
+            this.tbxBirth.Name = "tbxBirth";
+            this.tbxBirth.Size = new System.Drawing.Size(358, 27);
+            this.tbxBirth.TabIndex = 21;
             // 
-            // lbAddress
+            // tbxPosition
             // 
-            this.lbAddress.AutoEllipsis = true;
-            this.lbAddress.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbAddress.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbAddress.Location = new System.Drawing.Point(0, 345);
-            this.lbAddress.Name = "lbAddress";
-            this.lbAddress.Size = new System.Drawing.Size(179, 37);
-            this.lbAddress.TabIndex = 5;
-            this.lbAddress.Text = "Địa Chỉ:";
+            this.tbxPosition.Location = new System.Drawing.Point(185, 238);
+            this.tbxPosition.Name = "tbxPosition";
+            this.tbxPosition.Size = new System.Drawing.Size(358, 27);
+            this.tbxPosition.TabIndex = 20;
             // 
-            // lbID
+            // tbxID
             // 
-            this.lbID.AutoEllipsis = true;
-            this.lbID.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbID.Location = new System.Drawing.Point(0, 289);
-            this.lbID.Name = "lbID";
-            this.lbID.Size = new System.Drawing.Size(179, 37);
-            this.lbID.TabIndex = 6;
-            this.lbID.Text = "CMND:";
+            this.tbxID.Location = new System.Drawing.Point(185, 294);
+            this.tbxID.Name = "tbxID";
+            this.tbxID.Size = new System.Drawing.Size(358, 27);
+            this.tbxID.TabIndex = 19;
             // 
-            // lbPosition
+            // tbxAddress
             // 
-            this.lbPosition.AutoEllipsis = true;
-            this.lbPosition.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbPosition.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbPosition.Location = new System.Drawing.Point(0, 232);
-            this.lbPosition.Name = "lbPosition";
-            this.lbPosition.Size = new System.Drawing.Size(179, 37);
-            this.lbPosition.TabIndex = 7;
-            this.lbPosition.Text = "Chức Vụ:";
+            this.tbxAddress.Location = new System.Drawing.Point(185, 351);
+            this.tbxAddress.Name = "tbxAddress";
+            this.tbxAddress.Size = new System.Drawing.Size(358, 27);
+            this.tbxAddress.TabIndex = 18;
             // 
-            // lbSex
+            // tbxPhone
             // 
-            this.lbSex.AutoEllipsis = true;
-            this.lbSex.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSex.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbSex.Location = new System.Drawing.Point(0, 460);
-            this.lbSex.Name = "lbSex";
-            this.lbSex.Size = new System.Drawing.Size(179, 37);
-            this.lbSex.TabIndex = 8;
-            this.lbSex.Text = "Giới Tính:";
+            this.tbxPhone.Location = new System.Drawing.Point(185, 406);
+            this.tbxPhone.Name = "tbxPhone";
+            this.tbxPhone.Size = new System.Drawing.Size(358, 27);
+            this.tbxPhone.TabIndex = 17;
             // 
-            // lbPhone
+            // tbxSex
             // 
-            this.lbPhone.AutoEllipsis = true;
-            this.lbPhone.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbPhone.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbPhone.Location = new System.Drawing.Point(0, 396);
-            this.lbPhone.Name = "lbPhone";
-            this.lbPhone.Size = new System.Drawing.Size(179, 37);
-            this.lbPhone.TabIndex = 9;
-            this.lbPhone.Text = "Số Điện Thoại:";
+            this.tbxSex.Location = new System.Drawing.Point(185, 460);
+            this.tbxSex.Name = "tbxSex";
+            this.tbxSex.Size = new System.Drawing.Size(358, 27);
+            this.tbxSex.TabIndex = 16;
+            // 
+            // tbxName
+            // 
+            this.tbxName.Location = new System.Drawing.Point(185, 176);
+            this.tbxName.Name = "tbxName";
+            this.tbxName.Size = new System.Drawing.Size(358, 27);
+            this.tbxName.TabIndex = 15;
+            // 
+            // tbxPassword
+            // 
+            this.tbxPassword.Location = new System.Drawing.Point(185, 124);
+            this.tbxPassword.Name = "tbxPassword";
+            this.tbxPassword.Size = new System.Drawing.Size(358, 27);
+            this.tbxPassword.TabIndex = 14;
+            // 
+            // tbxUsername
+            // 
+            this.tbxUsername.Location = new System.Drawing.Point(185, 67);
+            this.tbxUsername.Name = "tbxUsername";
+            this.tbxUsername.Size = new System.Drawing.Size(358, 27);
+            this.tbxUsername.TabIndex = 13;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(411, 577);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(132, 29);
+            this.btnExit.TabIndex = 12;
+            this.btnExit.Text = "Thoát";
+            this.btnExit.UseVisualStyleBackColor = true;
+            // 
+            // btnChangePassword
+            // 
+            this.btnChangePassword.Location = new System.Drawing.Point(35, 577);
+            this.btnChangePassword.Name = "btnChangePassword";
+            this.btnChangePassword.Size = new System.Drawing.Size(144, 29);
+            this.btnChangePassword.TabIndex = 11;
+            this.btnChangePassword.Text = "Đổi Mật Khẩu";
+            this.btnChangePassword.UseVisualStyleBackColor = true;
             // 
             // lbBirth
             // 
@@ -176,88 +190,71 @@ namespace QLTS
             this.lbBirth.TabIndex = 10;
             this.lbBirth.Text = "Ngày Sinh:";
             // 
-            // btnExit
+            // lbPhone
             // 
-            this.btnExit.Location = new System.Drawing.Point(411, 577);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(132, 29);
-            this.btnExit.TabIndex = 12;
-            this.btnExit.Text = "Thoát";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.lbPhone.AutoEllipsis = true;
+            this.lbPhone.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbPhone.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbPhone.Location = new System.Drawing.Point(0, 396);
+            this.lbPhone.Name = "lbPhone";
+            this.lbPhone.Size = new System.Drawing.Size(179, 37);
+            this.lbPhone.TabIndex = 9;
+            this.lbPhone.Text = "Số Điện Thoại:";
             // 
-            // tbxName
+            // lbSex
             // 
-            this.tbxName.Location = new System.Drawing.Point(185, 176);
-            this.tbxName.Name = "tbxName";
-            this.tbxName.Size = new System.Drawing.Size(358, 27);
-            this.tbxName.TabIndex = 15;
+            this.lbSex.AutoEllipsis = true;
+            this.lbSex.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbSex.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbSex.Location = new System.Drawing.Point(0, 460);
+            this.lbSex.Name = "lbSex";
+            this.lbSex.Size = new System.Drawing.Size(179, 37);
+            this.lbSex.TabIndex = 8;
+            this.lbSex.Text = "Giới Tính:";
             // 
-            // tbxSex
+            // lbPosition
             // 
-            this.tbxSex.Location = new System.Drawing.Point(185, 460);
-            this.tbxSex.Name = "tbxSex";
-            this.tbxSex.Size = new System.Drawing.Size(358, 27);
-            this.tbxSex.TabIndex = 16;
+            this.lbPosition.AutoEllipsis = true;
+            this.lbPosition.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbPosition.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbPosition.Location = new System.Drawing.Point(0, 232);
+            this.lbPosition.Name = "lbPosition";
+            this.lbPosition.Size = new System.Drawing.Size(179, 37);
+            this.lbPosition.TabIndex = 7;
+            this.lbPosition.Text = "Chức Vụ:";
             // 
-            // tbxPhone
+            // lbID
             // 
-            this.tbxPhone.Location = new System.Drawing.Point(185, 406);
-            this.tbxPhone.Name = "tbxPhone";
-            this.tbxPhone.Size = new System.Drawing.Size(358, 27);
-            this.tbxPhone.TabIndex = 17;
+            this.lbID.AutoEllipsis = true;
+            this.lbID.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbID.Location = new System.Drawing.Point(0, 289);
+            this.lbID.Name = "lbID";
+            this.lbID.Size = new System.Drawing.Size(179, 37);
+            this.lbID.TabIndex = 6;
+            this.lbID.Text = "CMND:";
             // 
-            // tbxAddress
+            // lbAddress
             // 
-            this.tbxAddress.Location = new System.Drawing.Point(185, 351);
-            this.tbxAddress.Name = "tbxAddress";
-            this.tbxAddress.Size = new System.Drawing.Size(358, 27);
-            this.tbxAddress.TabIndex = 18;
+            this.lbAddress.AutoEllipsis = true;
+            this.lbAddress.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbAddress.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbAddress.Location = new System.Drawing.Point(0, 345);
+            this.lbAddress.Name = "lbAddress";
+            this.lbAddress.Size = new System.Drawing.Size(179, 37);
+            this.lbAddress.TabIndex = 5;
+            this.lbAddress.Text = "Địa Chỉ:";
             // 
-            // tbxID
+            // lbName
             // 
-            this.tbxID.Location = new System.Drawing.Point(185, 294);
-            this.tbxID.Name = "tbxID";
-            this.tbxID.Size = new System.Drawing.Size(358, 27);
-            this.tbxID.TabIndex = 19;
-            // 
-            // tbxPosition
-            // 
-            this.tbxPosition.Location = new System.Drawing.Point(185, 238);
-            this.tbxPosition.Name = "tbxPosition";
-            this.tbxPosition.Size = new System.Drawing.Size(358, 27);
-            this.tbxPosition.TabIndex = 20;
-            // 
-            // tbxBirth
-            // 
-            this.tbxBirth.Location = new System.Drawing.Point(185, 523);
-            this.tbxBirth.Name = "tbxBirth";
-            this.tbxBirth.Size = new System.Drawing.Size(358, 27);
-            this.tbxBirth.TabIndex = 21;
-            // 
-            // picAvatar
-            // 
-            this.picAvatar.Image = ((System.Drawing.Image)(resources.GetObject("picAvatar.Image")));
-            this.picAvatar.Location = new System.Drawing.Point(577, 67);
-            this.picAvatar.Name = "picAvatar";
-            this.picAvatar.Size = new System.Drawing.Size(122, 146);
-            this.picAvatar.TabIndex = 22;
-            this.picAvatar.TabStop = false;
-            // 
-            // btnChangePassword
-            // 
-            this.btnChangePassword.Location = new System.Drawing.Point(35, 577);
-            this.btnChangePassword.Name = "btnChangePassword";
-            this.btnChangePassword.Size = new System.Drawing.Size(144, 29);
-            this.btnChangePassword.TabIndex = 11;
-            this.btnChangePassword.Text = "Đổi Mật Khẩu";
-            this.btnChangePassword.UseVisualStyleBackColor = true;
-            // 
-            // tbxPassword
-            // 
-            this.tbxPassword.Location = new System.Drawing.Point(185, 124);
-            this.tbxPassword.Name = "tbxPassword";
-            this.tbxPassword.Size = new System.Drawing.Size(358, 27);
-            this.tbxPassword.TabIndex = 14;
+            this.lbName.AutoEllipsis = true;
+            this.lbName.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbName.Location = new System.Drawing.Point(0, 176);
+            this.lbName.Name = "lbName";
+            this.lbName.Size = new System.Drawing.Size(179, 37);
+            this.lbName.TabIndex = 4;
+            this.lbName.Text = "Họ Và Tên:";
             // 
             // lbPassword
             // 
@@ -269,13 +266,6 @@ namespace QLTS
             this.lbPassword.Size = new System.Drawing.Size(179, 37);
             this.lbPassword.TabIndex = 3;
             this.lbPassword.Text = "Mật Khẩu :";
-            // 
-            // tbxUsername
-            // 
-            this.tbxUsername.Location = new System.Drawing.Point(185, 67);
-            this.tbxUsername.Name = "tbxUsername";
-            this.tbxUsername.Size = new System.Drawing.Size(358, 27);
-            this.tbxUsername.TabIndex = 13;
             // 
             // lbUsername
             // 
@@ -293,11 +283,21 @@ namespace QLTS
             this.lbTitle.AutoEllipsis = true;
             this.lbTitle.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbTitle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbTitle.Location = new System.Drawing.Point(230, 0);
+            this.lbTitle.Location = new System.Drawing.Point(213, 18);
             this.lbTitle.Name = "lbTitle";
-            this.lbTitle.Size = new System.Drawing.Size(261, 46);
+            this.lbTitle.Size = new System.Drawing.Size(285, 46);
             this.lbTitle.TabIndex = 1;
-            this.lbTitle.Text = "Thông Tin Cá Nhân";
+            this.lbTitle.Text = "Thông Tin Tài Khoản";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(-96, -108);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(135, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Thông Tin Cá Nhân";
             // 
             // Account
             // 

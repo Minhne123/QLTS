@@ -36,7 +36,7 @@ namespace QLTS
             this.btnRevenue = new System.Windows.Forms.Button();
             this.btnRawmaterial = new System.Windows.Forms.Button();
             this.btnSupplier = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlManagament = new System.Windows.Forms.Panel();
             this.pnlOptions.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,20 +110,20 @@ namespace QLTS
             this.btnSupplier.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSupplier.UseVisualStyleBackColor = true;
             // 
-            // panel1
+            // pnlManagament
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(250, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(861, 532);
-            this.panel1.TabIndex = 2;
+            this.pnlManagament.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlManagament.Location = new System.Drawing.Point(250, 0);
+            this.pnlManagament.Name = "pnlManagament";
+            this.pnlManagament.Size = new System.Drawing.Size(861, 532);
+            this.pnlManagament.TabIndex = 2;
             // 
             // Managerment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1111, 532);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlManagament);
             this.Controls.Add(this.pnlOptions);
             this.Name = "Managerment";
             this.Text = "Managerment";
@@ -140,6 +140,6 @@ namespace QLTS
         private System.Windows.Forms.Button btnRawmaterial;
         private System.Windows.Forms.Button btnSupplier;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlManagament;
     }
 }
