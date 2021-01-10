@@ -30,26 +30,26 @@ namespace QLTS
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlInputSupplier = new System.Windows.Forms.Panel();
-            this.lbSupplierID = new System.Windows.Forms.Label();
-            this.lbSupplierPhone = new System.Windows.Forms.Label();
-            this.lbSupplierAddress = new System.Windows.Forms.Label();
-            this.lbSupplierName = new System.Windows.Forms.Label();
-            this.lbSupplierEmail = new System.Windows.Forms.Label();
-            this.txbSupplierID = new System.Windows.Forms.TextBox();
-            this.txbSupplierPhone = new System.Windows.Forms.TextBox();
-            this.txbSupplierEmail = new System.Windows.Forms.TextBox();
-            this.txbSupplierAddress = new System.Windows.Forms.TextBox();
-            this.txbSupplierName = new System.Windows.Forms.TextBox();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnDelect = new System.Windows.Forms.Button();
             this.lsvSupplier = new System.Windows.Forms.ListView();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
+            this.pnlInputSupplier = new System.Windows.Forms.Panel();
+            this.btnDelect = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.txbSupplierName = new System.Windows.Forms.TextBox();
+            this.txbSupplierAddress = new System.Windows.Forms.TextBox();
+            this.txbSupplierEmail = new System.Windows.Forms.TextBox();
+            this.txbSupplierPhone = new System.Windows.Forms.TextBox();
+            this.txbSupplierID = new System.Windows.Forms.TextBox();
+            this.lbSupplierEmail = new System.Windows.Forms.Label();
+            this.lbSupplierName = new System.Windows.Forms.Label();
+            this.lbSupplierAddress = new System.Windows.Forms.Label();
+            this.lbSupplierPhone = new System.Windows.Forms.Label();
+            this.lbSupplierID = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnlInputSupplier.SuspendLayout();
             this.SuspendLayout();
@@ -63,139 +63,6 @@ namespace QLTS
             this.panel1.Size = new System.Drawing.Size(654, 596);
             this.panel1.TabIndex = 0;
             // 
-            // pnlInputSupplier
-            // 
-            this.pnlInputSupplier.Controls.Add(this.btnDelect);
-            this.pnlInputSupplier.Controls.Add(this.btnEdit);
-            this.pnlInputSupplier.Controls.Add(this.btnAdd);
-            this.pnlInputSupplier.Controls.Add(this.txbSupplierName);
-            this.pnlInputSupplier.Controls.Add(this.txbSupplierAddress);
-            this.pnlInputSupplier.Controls.Add(this.txbSupplierEmail);
-            this.pnlInputSupplier.Controls.Add(this.txbSupplierPhone);
-            this.pnlInputSupplier.Controls.Add(this.txbSupplierID);
-            this.pnlInputSupplier.Controls.Add(this.lbSupplierEmail);
-            this.pnlInputSupplier.Controls.Add(this.lbSupplierName);
-            this.pnlInputSupplier.Controls.Add(this.lbSupplierAddress);
-            this.pnlInputSupplier.Controls.Add(this.lbSupplierPhone);
-            this.pnlInputSupplier.Controls.Add(this.lbSupplierID);
-            this.pnlInputSupplier.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlInputSupplier.Location = new System.Drawing.Point(651, 0);
-            this.pnlInputSupplier.Name = "pnlInputSupplier";
-            this.pnlInputSupplier.Size = new System.Drawing.Size(460, 596);
-            this.pnlInputSupplier.TabIndex = 1;
-            // 
-            // lbSupplierID
-            // 
-            this.lbSupplierID.AutoSize = true;
-            this.lbSupplierID.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSupplierID.Location = new System.Drawing.Point(9, 42);
-            this.lbSupplierID.Name = "lbSupplierID";
-            this.lbSupplierID.Size = new System.Drawing.Size(171, 27);
-            this.lbSupplierID.TabIndex = 0;
-            this.lbSupplierID.Text = "Mã Nhà Cung Cấp:";
-            // 
-            // lbSupplierPhone
-            // 
-            this.lbSupplierPhone.AutoSize = true;
-            this.lbSupplierPhone.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSupplierPhone.Location = new System.Drawing.Point(9, 266);
-            this.lbSupplierPhone.Name = "lbSupplierPhone";
-            this.lbSupplierPhone.Size = new System.Drawing.Size(107, 27);
-            this.lbSupplierPhone.TabIndex = 1;
-            this.lbSupplierPhone.Text = "Điện Thoại:";
-            // 
-            // lbSupplierAddress
-            // 
-            this.lbSupplierAddress.AutoSize = true;
-            this.lbSupplierAddress.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSupplierAddress.Location = new System.Drawing.Point(9, 195);
-            this.lbSupplierAddress.Name = "lbSupplierAddress";
-            this.lbSupplierAddress.Size = new System.Drawing.Size(78, 27);
-            this.lbSupplierAddress.TabIndex = 2;
-            this.lbSupplierAddress.Text = "Địa Chỉ:";
-            // 
-            // lbSupplierName
-            // 
-            this.lbSupplierName.AutoSize = true;
-            this.lbSupplierName.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSupplierName.Location = new System.Drawing.Point(9, 121);
-            this.lbSupplierName.Name = "lbSupplierName";
-            this.lbSupplierName.Size = new System.Drawing.Size(176, 27);
-            this.lbSupplierName.TabIndex = 3;
-            this.lbSupplierName.Text = "Tên Nhà Cung Cấp:";
-            // 
-            // lbSupplierEmail
-            // 
-            this.lbSupplierEmail.AutoSize = true;
-            this.lbSupplierEmail.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSupplierEmail.Location = new System.Drawing.Point(9, 340);
-            this.lbSupplierEmail.Name = "lbSupplierEmail";
-            this.lbSupplierEmail.Size = new System.Drawing.Size(64, 27);
-            this.lbSupplierEmail.TabIndex = 4;
-            this.lbSupplierEmail.Text = "Email:";
-            // 
-            // txbSupplierID
-            // 
-            this.txbSupplierID.Location = new System.Drawing.Point(186, 42);
-            this.txbSupplierID.Name = "txbSupplierID";
-            this.txbSupplierID.Size = new System.Drawing.Size(215, 27);
-            this.txbSupplierID.TabIndex = 5;
-            // 
-            // txbSupplierPhone
-            // 
-            this.txbSupplierPhone.Location = new System.Drawing.Point(122, 266);
-            this.txbSupplierPhone.Name = "txbSupplierPhone";
-            this.txbSupplierPhone.Size = new System.Drawing.Size(279, 27);
-            this.txbSupplierPhone.TabIndex = 6;
-            // 
-            // txbSupplierEmail
-            // 
-            this.txbSupplierEmail.Location = new System.Drawing.Point(79, 340);
-            this.txbSupplierEmail.Name = "txbSupplierEmail";
-            this.txbSupplierEmail.Size = new System.Drawing.Size(322, 27);
-            this.txbSupplierEmail.TabIndex = 7;
-            // 
-            // txbSupplierAddress
-            // 
-            this.txbSupplierAddress.Location = new System.Drawing.Point(93, 195);
-            this.txbSupplierAddress.Name = "txbSupplierAddress";
-            this.txbSupplierAddress.Size = new System.Drawing.Size(308, 27);
-            this.txbSupplierAddress.TabIndex = 8;
-            // 
-            // txbSupplierName
-            // 
-            this.txbSupplierName.Location = new System.Drawing.Point(186, 121);
-            this.txbSupplierName.Name = "txbSupplierName";
-            this.txbSupplierName.Size = new System.Drawing.Size(215, 27);
-            this.txbSupplierName.TabIndex = 9;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(63, 445);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(94, 29);
-            this.btnAdd.TabIndex = 10;
-            this.btnAdd.Text = "Thêm";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            // 
-            // btnEdit
-            // 
-            this.btnEdit.Location = new System.Drawing.Point(186, 445);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(94, 29);
-            this.btnEdit.TabIndex = 11;
-            this.btnEdit.Text = "Sửa";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            // 
-            // btnDelect
-            // 
-            this.btnDelect.Location = new System.Drawing.Point(307, 445);
-            this.btnDelect.Name = "btnDelect";
-            this.btnDelect.Size = new System.Drawing.Size(94, 29);
-            this.btnDelect.TabIndex = 12;
-            this.btnDelect.Text = "Xóa";
-            this.btnDelect.UseVisualStyleBackColor = true;
-            // 
             // lsvSupplier
             // 
             this.lsvSupplier.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -205,6 +72,7 @@ namespace QLTS
             this.columnHeader4,
             this.columnHeader5});
             this.lsvSupplier.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lsvSupplier.GridLines = true;
             this.lsvSupplier.HideSelection = false;
             this.lsvSupplier.Location = new System.Drawing.Point(0, 0);
             this.lsvSupplier.Name = "lsvSupplier";
@@ -241,6 +109,140 @@ namespace QLTS
             this.columnHeader5.Text = "Email";
             this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader5.Width = 100;
+            // 
+            // pnlInputSupplier
+            // 
+            this.pnlInputSupplier.Controls.Add(this.btnDelect);
+            this.pnlInputSupplier.Controls.Add(this.btnEdit);
+            this.pnlInputSupplier.Controls.Add(this.btnAdd);
+            this.pnlInputSupplier.Controls.Add(this.txbSupplierName);
+            this.pnlInputSupplier.Controls.Add(this.txbSupplierAddress);
+            this.pnlInputSupplier.Controls.Add(this.txbSupplierEmail);
+            this.pnlInputSupplier.Controls.Add(this.txbSupplierPhone);
+            this.pnlInputSupplier.Controls.Add(this.txbSupplierID);
+            this.pnlInputSupplier.Controls.Add(this.lbSupplierEmail);
+            this.pnlInputSupplier.Controls.Add(this.lbSupplierName);
+            this.pnlInputSupplier.Controls.Add(this.lbSupplierAddress);
+            this.pnlInputSupplier.Controls.Add(this.lbSupplierPhone);
+            this.pnlInputSupplier.Controls.Add(this.lbSupplierID);
+            this.pnlInputSupplier.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlInputSupplier.Location = new System.Drawing.Point(651, 0);
+            this.pnlInputSupplier.Name = "pnlInputSupplier";
+            this.pnlInputSupplier.Size = new System.Drawing.Size(460, 596);
+            this.pnlInputSupplier.TabIndex = 1;
+            // 
+            // btnDelect
+            // 
+            this.btnDelect.Location = new System.Drawing.Point(307, 445);
+            this.btnDelect.Name = "btnDelect";
+            this.btnDelect.Size = new System.Drawing.Size(94, 29);
+            this.btnDelect.TabIndex = 12;
+            this.btnDelect.Text = "Xóa";
+            this.btnDelect.UseVisualStyleBackColor = true;
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Location = new System.Drawing.Point(186, 445);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(94, 29);
+            this.btnEdit.TabIndex = 11;
+            this.btnEdit.Text = "Sửa";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(63, 445);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(94, 29);
+            this.btnAdd.TabIndex = 10;
+            this.btnAdd.Text = "Thêm";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // txbSupplierName
+            // 
+            this.txbSupplierName.Location = new System.Drawing.Point(186, 121);
+            this.txbSupplierName.Name = "txbSupplierName";
+            this.txbSupplierName.Size = new System.Drawing.Size(215, 27);
+            this.txbSupplierName.TabIndex = 9;
+            // 
+            // txbSupplierAddress
+            // 
+            this.txbSupplierAddress.Location = new System.Drawing.Point(93, 195);
+            this.txbSupplierAddress.Name = "txbSupplierAddress";
+            this.txbSupplierAddress.Size = new System.Drawing.Size(308, 27);
+            this.txbSupplierAddress.TabIndex = 8;
+            // 
+            // txbSupplierEmail
+            // 
+            this.txbSupplierEmail.Location = new System.Drawing.Point(79, 340);
+            this.txbSupplierEmail.Name = "txbSupplierEmail";
+            this.txbSupplierEmail.Size = new System.Drawing.Size(322, 27);
+            this.txbSupplierEmail.TabIndex = 7;
+            // 
+            // txbSupplierPhone
+            // 
+            this.txbSupplierPhone.Location = new System.Drawing.Point(122, 266);
+            this.txbSupplierPhone.Name = "txbSupplierPhone";
+            this.txbSupplierPhone.Size = new System.Drawing.Size(279, 27);
+            this.txbSupplierPhone.TabIndex = 6;
+            // 
+            // txbSupplierID
+            // 
+            this.txbSupplierID.Location = new System.Drawing.Point(186, 42);
+            this.txbSupplierID.Name = "txbSupplierID";
+            this.txbSupplierID.ReadOnly = true;
+            this.txbSupplierID.Size = new System.Drawing.Size(215, 27);
+            this.txbSupplierID.TabIndex = 5;
+            // 
+            // lbSupplierEmail
+            // 
+            this.lbSupplierEmail.AutoSize = true;
+            this.lbSupplierEmail.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbSupplierEmail.Location = new System.Drawing.Point(9, 340);
+            this.lbSupplierEmail.Name = "lbSupplierEmail";
+            this.lbSupplierEmail.Size = new System.Drawing.Size(64, 27);
+            this.lbSupplierEmail.TabIndex = 4;
+            this.lbSupplierEmail.Text = "Email:";
+            // 
+            // lbSupplierName
+            // 
+            this.lbSupplierName.AutoSize = true;
+            this.lbSupplierName.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbSupplierName.Location = new System.Drawing.Point(9, 121);
+            this.lbSupplierName.Name = "lbSupplierName";
+            this.lbSupplierName.Size = new System.Drawing.Size(176, 27);
+            this.lbSupplierName.TabIndex = 3;
+            this.lbSupplierName.Text = "Tên Nhà Cung Cấp:";
+            // 
+            // lbSupplierAddress
+            // 
+            this.lbSupplierAddress.AutoSize = true;
+            this.lbSupplierAddress.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbSupplierAddress.Location = new System.Drawing.Point(9, 195);
+            this.lbSupplierAddress.Name = "lbSupplierAddress";
+            this.lbSupplierAddress.Size = new System.Drawing.Size(78, 27);
+            this.lbSupplierAddress.TabIndex = 2;
+            this.lbSupplierAddress.Text = "Địa Chỉ:";
+            // 
+            // lbSupplierPhone
+            // 
+            this.lbSupplierPhone.AutoSize = true;
+            this.lbSupplierPhone.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbSupplierPhone.Location = new System.Drawing.Point(9, 266);
+            this.lbSupplierPhone.Name = "lbSupplierPhone";
+            this.lbSupplierPhone.Size = new System.Drawing.Size(107, 27);
+            this.lbSupplierPhone.TabIndex = 1;
+            this.lbSupplierPhone.Text = "Điện Thoại:";
+            // 
+            // lbSupplierID
+            // 
+            this.lbSupplierID.AutoSize = true;
+            this.lbSupplierID.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbSupplierID.Location = new System.Drawing.Point(9, 42);
+            this.lbSupplierID.Name = "lbSupplierID";
+            this.lbSupplierID.Size = new System.Drawing.Size(171, 27);
+            this.lbSupplierID.TabIndex = 0;
+            this.lbSupplierID.Text = "Mã Nhà Cung Cấp:";
             // 
             // Supplier
             // 

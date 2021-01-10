@@ -173,6 +173,7 @@ namespace QLTS
             // 
             this.txbMaterialID.Location = new System.Drawing.Point(202, 45);
             this.txbMaterialID.Name = "txbMaterialID";
+            this.txbMaterialID.ReadOnly = true;
             this.txbMaterialID.Size = new System.Drawing.Size(281, 27);
             this.txbMaterialID.TabIndex = 5;
             // 

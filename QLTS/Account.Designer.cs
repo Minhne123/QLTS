@@ -39,7 +39,6 @@ namespace QLTS
             this.tbxPhone = new System.Windows.Forms.TextBox();
             this.tbxSex = new System.Windows.Forms.TextBox();
             this.tbxName = new System.Windows.Forms.TextBox();
-            this.tbxPassword = new System.Windows.Forms.TextBox();
             this.tbxUsername = new System.Windows.Forms.TextBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnChangePassword = new System.Windows.Forms.Button();
@@ -50,7 +49,6 @@ namespace QLTS
             this.lbID = new System.Windows.Forms.Label();
             this.lbAddress = new System.Windows.Forms.Label();
             this.lbName = new System.Windows.Forms.Label();
-            this.lbPassword = new System.Windows.Forms.Label();
             this.lbUsername = new System.Windows.Forms.Label();
             this.lbTitle = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -69,7 +67,6 @@ namespace QLTS
             this.pnlOptions.Controls.Add(this.tbxPhone);
             this.pnlOptions.Controls.Add(this.tbxSex);
             this.pnlOptions.Controls.Add(this.tbxName);
-            this.pnlOptions.Controls.Add(this.tbxPassword);
             this.pnlOptions.Controls.Add(this.tbxUsername);
             this.pnlOptions.Controls.Add(this.btnExit);
             this.pnlOptions.Controls.Add(this.btnChangePassword);
@@ -80,7 +77,6 @@ namespace QLTS
             this.pnlOptions.Controls.Add(this.lbID);
             this.pnlOptions.Controls.Add(this.lbAddress);
             this.pnlOptions.Controls.Add(this.lbName);
-            this.pnlOptions.Controls.Add(this.lbPassword);
             this.pnlOptions.Controls.Add(this.lbUsername);
             this.pnlOptions.Controls.Add(this.lbTitle);
             this.pnlOptions.Controls.Add(this.label1);
@@ -92,7 +88,7 @@ namespace QLTS
             // picAvatar
             // 
             this.picAvatar.Image = ((System.Drawing.Image)(resources.GetObject("picAvatar.Image")));
-            this.picAvatar.Location = new System.Drawing.Point(577, 67);
+            this.picAvatar.Location = new System.Drawing.Point(577, 4);
             this.picAvatar.Name = "picAvatar";
             this.picAvatar.Size = new System.Drawing.Size(122, 146);
             this.picAvatar.TabIndex = 22;
@@ -100,59 +96,52 @@ namespace QLTS
             // 
             // tbxBirth
             // 
-            this.tbxBirth.Location = new System.Drawing.Point(185, 523);
+            this.tbxBirth.Location = new System.Drawing.Point(185, 460);
             this.tbxBirth.Name = "tbxBirth";
             this.tbxBirth.Size = new System.Drawing.Size(358, 27);
             this.tbxBirth.TabIndex = 21;
             // 
             // tbxPosition
             // 
-            this.tbxPosition.Location = new System.Drawing.Point(185, 238);
+            this.tbxPosition.Location = new System.Drawing.Point(185, 175);
             this.tbxPosition.Name = "tbxPosition";
             this.tbxPosition.Size = new System.Drawing.Size(358, 27);
             this.tbxPosition.TabIndex = 20;
             // 
             // tbxID
             // 
-            this.tbxID.Location = new System.Drawing.Point(185, 294);
+            this.tbxID.Location = new System.Drawing.Point(185, 231);
             this.tbxID.Name = "tbxID";
             this.tbxID.Size = new System.Drawing.Size(358, 27);
             this.tbxID.TabIndex = 19;
             // 
             // tbxAddress
             // 
-            this.tbxAddress.Location = new System.Drawing.Point(185, 351);
+            this.tbxAddress.Location = new System.Drawing.Point(185, 288);
             this.tbxAddress.Name = "tbxAddress";
             this.tbxAddress.Size = new System.Drawing.Size(358, 27);
             this.tbxAddress.TabIndex = 18;
             // 
             // tbxPhone
             // 
-            this.tbxPhone.Location = new System.Drawing.Point(185, 406);
+            this.tbxPhone.Location = new System.Drawing.Point(185, 343);
             this.tbxPhone.Name = "tbxPhone";
             this.tbxPhone.Size = new System.Drawing.Size(358, 27);
             this.tbxPhone.TabIndex = 17;
             // 
             // tbxSex
             // 
-            this.tbxSex.Location = new System.Drawing.Point(185, 460);
+            this.tbxSex.Location = new System.Drawing.Point(185, 397);
             this.tbxSex.Name = "tbxSex";
             this.tbxSex.Size = new System.Drawing.Size(358, 27);
             this.tbxSex.TabIndex = 16;
             // 
             // tbxName
             // 
-            this.tbxName.Location = new System.Drawing.Point(185, 176);
+            this.tbxName.Location = new System.Drawing.Point(185, 123);
             this.tbxName.Name = "tbxName";
             this.tbxName.Size = new System.Drawing.Size(358, 27);
             this.tbxName.TabIndex = 15;
-            // 
-            // tbxPassword
-            // 
-            this.tbxPassword.Location = new System.Drawing.Point(185, 124);
-            this.tbxPassword.Name = "tbxPassword";
-            this.tbxPassword.Size = new System.Drawing.Size(358, 27);
-            this.tbxPassword.TabIndex = 14;
             // 
             // tbxUsername
             // 
@@ -163,7 +152,7 @@ namespace QLTS
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(411, 577);
+            this.btnExit.Location = new System.Drawing.Point(411, 514);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(132, 29);
             this.btnExit.TabIndex = 12;
@@ -172,7 +161,7 @@ namespace QLTS
             // 
             // btnChangePassword
             // 
-            this.btnChangePassword.Location = new System.Drawing.Point(35, 577);
+            this.btnChangePassword.Location = new System.Drawing.Point(35, 514);
             this.btnChangePassword.Name = "btnChangePassword";
             this.btnChangePassword.Size = new System.Drawing.Size(144, 29);
             this.btnChangePassword.TabIndex = 11;
@@ -184,7 +173,7 @@ namespace QLTS
             this.lbBirth.AutoEllipsis = true;
             this.lbBirth.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbBirth.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbBirth.Location = new System.Drawing.Point(0, 513);
+            this.lbBirth.Location = new System.Drawing.Point(0, 450);
             this.lbBirth.Name = "lbBirth";
             this.lbBirth.Size = new System.Drawing.Size(179, 37);
             this.lbBirth.TabIndex = 10;
@@ -195,7 +184,7 @@ namespace QLTS
             this.lbPhone.AutoEllipsis = true;
             this.lbPhone.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbPhone.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbPhone.Location = new System.Drawing.Point(0, 396);
+            this.lbPhone.Location = new System.Drawing.Point(0, 333);
             this.lbPhone.Name = "lbPhone";
             this.lbPhone.Size = new System.Drawing.Size(179, 37);
             this.lbPhone.TabIndex = 9;
@@ -206,7 +195,7 @@ namespace QLTS
             this.lbSex.AutoEllipsis = true;
             this.lbSex.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbSex.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbSex.Location = new System.Drawing.Point(0, 460);
+            this.lbSex.Location = new System.Drawing.Point(0, 397);
             this.lbSex.Name = "lbSex";
             this.lbSex.Size = new System.Drawing.Size(179, 37);
             this.lbSex.TabIndex = 8;
@@ -217,7 +206,7 @@ namespace QLTS
             this.lbPosition.AutoEllipsis = true;
             this.lbPosition.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbPosition.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbPosition.Location = new System.Drawing.Point(0, 232);
+            this.lbPosition.Location = new System.Drawing.Point(0, 169);
             this.lbPosition.Name = "lbPosition";
             this.lbPosition.Size = new System.Drawing.Size(179, 37);
             this.lbPosition.TabIndex = 7;
@@ -228,7 +217,7 @@ namespace QLTS
             this.lbID.AutoEllipsis = true;
             this.lbID.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbID.Location = new System.Drawing.Point(0, 289);
+            this.lbID.Location = new System.Drawing.Point(0, 226);
             this.lbID.Name = "lbID";
             this.lbID.Size = new System.Drawing.Size(179, 37);
             this.lbID.TabIndex = 6;
@@ -239,7 +228,7 @@ namespace QLTS
             this.lbAddress.AutoEllipsis = true;
             this.lbAddress.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbAddress.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbAddress.Location = new System.Drawing.Point(0, 345);
+            this.lbAddress.Location = new System.Drawing.Point(0, 282);
             this.lbAddress.Name = "lbAddress";
             this.lbAddress.Size = new System.Drawing.Size(179, 37);
             this.lbAddress.TabIndex = 5;
@@ -250,22 +239,11 @@ namespace QLTS
             this.lbName.AutoEllipsis = true;
             this.lbName.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbName.Location = new System.Drawing.Point(0, 176);
+            this.lbName.Location = new System.Drawing.Point(0, 117);
             this.lbName.Name = "lbName";
             this.lbName.Size = new System.Drawing.Size(179, 37);
             this.lbName.TabIndex = 4;
             this.lbName.Text = "Họ Và Tên:";
-            // 
-            // lbPassword
-            // 
-            this.lbPassword.AutoEllipsis = true;
-            this.lbPassword.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbPassword.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbPassword.Location = new System.Drawing.Point(0, 124);
-            this.lbPassword.Name = "lbPassword";
-            this.lbPassword.Size = new System.Drawing.Size(179, 37);
-            this.lbPassword.TabIndex = 3;
-            this.lbPassword.Text = "Mật Khẩu :";
             // 
             // lbUsername
             // 
@@ -334,10 +312,8 @@ namespace QLTS
         private System.Windows.Forms.Label lbName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox picAvatar;
-        private System.Windows.Forms.TextBox tbxPassword;
         private System.Windows.Forms.TextBox tbxUsername;
         private System.Windows.Forms.Button btnChangePassword;
-        private System.Windows.Forms.Label lbPassword;
         private System.Windows.Forms.Label lbUsername;
         private System.Windows.Forms.Label lbTitle;
     }

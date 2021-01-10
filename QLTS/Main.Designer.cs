@@ -140,6 +140,7 @@ namespace QLTS
             this.columnHeader2,
             this.columnHeader3});
             this.lstViewTable.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lstViewTable.GridLines = true;
             this.lstViewTable.HideSelection = false;
             this.lstViewTable.Location = new System.Drawing.Point(0, 0);
             this.lstViewTable.Name = "lstViewTable";
@@ -171,6 +172,7 @@ namespace QLTS
             this.columnHeader6,
             this.columnHeader7});
             this.lstViewBill.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lstViewBill.GridLines = true;
             this.lstViewBill.HideSelection = false;
             this.lstViewBill.Location = new System.Drawing.Point(0, 0);
             this.lstViewBill.Name = "lstViewBill";
@@ -244,6 +246,7 @@ namespace QLTS
             // 
             this.tbxTotal.Location = new System.Drawing.Point(15, 463);
             this.tbxTotal.Name = "tbxTotal";
+            this.tbxTotal.ReadOnly = true;
             this.tbxTotal.Size = new System.Drawing.Size(379, 27);
             this.tbxTotal.TabIndex = 3;
             // 

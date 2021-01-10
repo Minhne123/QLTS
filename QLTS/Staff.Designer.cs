@@ -367,6 +367,7 @@ namespace QLTS
             // 
             this.txbStaffID.Location = new System.Drawing.Point(103, 21);
             this.txbStaffID.Name = "txbStaffID";
+            this.txbStaffID.ReadOnly = true;
             this.txbStaffID.Size = new System.Drawing.Size(252, 30);
             this.txbStaffID.TabIndex = 1;
             // 
