@@ -43,6 +43,7 @@ namespace QLTS
             this.txbUsername.Name = "txbUsername";
             this.txbUsername.Size = new System.Drawing.Size(125, 27);
             this.txbUsername.TabIndex = 0;
+            this.txbUsername.TextChanged += new System.EventHandler(this.txbUsername_TextChanged);
             // 
             // txbPassword
             // 
@@ -70,6 +71,7 @@ namespace QLTS
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label1
             // 

@@ -47,3 +47,28 @@ C:\Users\Le Cong Minh\Desktop\New folder\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.
 C:\Users\Le Cong Minh\Desktop\New folder\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.dll
 C:\Users\Le Cong Minh\Desktop\New folder\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.pdb
 C:\Users\Le Cong Minh\Desktop\New folder\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.genruntimeconfig.cache
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\QLTS.exe
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\QLTS.deps.json
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\QLTS.runtimeconfig.json
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\QLTS.runtimeconfig.dev.json
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\QLTS.dll
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\QLTS.pdb
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.csprojAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.Form1.resources
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.MainForm.resources
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.Managerment.resources
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.Properties.Resources.resources
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.AssemblyInfo.cs
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.csproj.CopyComplete
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.dll
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.pdb
+C:\Users\ASUS\Documents\GitHub\QLTS\QLTS\obj\Debug\netcoreapp3.1\QLTS.genruntimeconfig.cache

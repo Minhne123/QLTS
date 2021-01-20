@@ -14,5 +14,10 @@ namespace QLTS
         {
             InitializeComponent();
         }
+
+        private void Managerment_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
